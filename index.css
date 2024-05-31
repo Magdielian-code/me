@@ -168,9 +168,16 @@
     border-radius: 40px;
 }
 .about-me-section-button {
+    background: #0E0E0F;
+    color: white;
+    width: 7%;
     border-radius: 50px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
+}
+.about-me-overall-div {
+    display: flex;
+    
 }
 .about-me-section-for-text {
     background-color: #0E0E0F;
@@ -181,6 +188,8 @@
 .sub-about-me-section-for-text {
     margin-top: 0px;
     margin-left: 10px;
+    margin-right: 10px;
+    max-width: 40%;
 }
 .about-me-section-h2 {
     margin-top: 0px;
