@@ -3,6 +3,7 @@
     color: white;
 }
 
+/* HEADER AND TOP BODY PART */
 .brand {
     margin-left: auto;
     margin-right: auto;
@@ -45,6 +46,10 @@
     border-radius: 50px;
     width: 30%;
 }
+
+
+/* PROJECT GRID AREA */
+
 .project-div-section {
     margin-top: 90px; 
 }
@@ -59,9 +64,24 @@
 .project-grid {
     margin: 10px ;
 }
-.column {
-    background-color: green;
-}
 .project-card {
-    background-color: blue;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.project-sub-div {
+    background-color: #95AACF;
+    border-radius: 20px;
+    height: 140px;
+    margin: 10px ;
+}
+.project-card-body {
+    margin-top: 20px;
+    color: black;
+    color: black;
+}
+.project-button-seemore {
+    border-radius: 40px;
+    margin-top: 40px;
+    background-color: #95AACF;
 }
