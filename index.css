@@ -64,6 +64,7 @@
 .project-grid {
     margin: 10px ;
 }
+/* PROJECT CARD I */
 .project-card {
     background-color: white;
     border-radius: 20px;
@@ -75,6 +76,7 @@
     height: 140px;
     margin: 10px ;
 }
+
 .project-card-body {
     margin-top: 20px;
     color: black;
@@ -84,4 +86,65 @@
     border-radius: 40px;
     margin-top: 40px;
     background-color: #95AACF;
+}
+
+/* PROJECT CARD 2 */
+.project-sub-div2 {
+    background-color: #0CCB76;
+    border-radius: 20px;
+    height: 140px;
+    margin: 10px 
+
+}
+.project-card-body2 {
+    margin-top: 20px;
+    color: black;
+    color: black;
+}
+.project-button-seemore2 {
+    border-radius: 40px;
+    margin-top: 40px;
+    background-color: #0CCB76;
+}
+
+/* PROJECT CARD 3 */
+
+.project-sub-div3 {
+    background: #25E6AC;
+    border-radius: 20px;
+    height: 140px;
+    margin: 10px 
+
+}
+.project-card-body3 {
+    margin-top: 20px;
+    color: black;
+    color: black;
+}
+.project-button-seemore3 {
+    border-radius: 40px;
+    margin-top: 40px;
+    background: #25E6AC;
+}
+
+/* PROJECT CARD 4 */
+
+.project-sub-div4 {
+    background: #800080;
+
+    border-radius: 20px;
+    height: 140px;
+    margin: 10px 
+
+}
+.project-card-body4 {
+    margin-top: 20px;
+    color: black;
+    color: black;
+}
+.project-button-seemore4 {
+    border-radius: 40px;
+    margin-top: 40px;
+    background: #800080;
+
 }
