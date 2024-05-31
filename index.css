@@ -1,0 +1,61 @@
+.full-body {
+    background-color: black;
+    color: white;
+}
+
+.brand {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+    justify-items: center;
+    color: black;
+}
+
+#navbarNav {
+    justify-content: right;
+    /* background-color: black; */
+}
+.image-div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.parent-intro-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.paragraph-intro-div {
+    width: 50%;
+}
+.paragraph-parent-intro-div {
+    display: flex;
+    justify-content: center;
+}
+.resume-button-div {
+    display: flex;
+    justify-content: center;
+    
+}
+.resume-button {
+    border-radius: 50px;
+    width: 30%;
+}
+.project-div-section {
+    margin-top: 90px; 
+}
+.select-button-div {
+    border-radius: 50px;    
+}
+.select-project-button {
+    border-radius: 50px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.project-grid {
+    margin: 10px ;
+}
