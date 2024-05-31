@@ -62,3 +62,17 @@
 .column {
     background-color: green;
 }
+.project-card {
+    background-color: blue;
+}
+
+.project-grid {
+    display: grid;
+}
+
+.project-flex-project-grid {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
