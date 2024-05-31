@@ -159,3 +159,32 @@
     /* padding-left: 3px;
     padding-right: 3px; */
 }
+
+
+/* ABOUT ME SECTION */
+
+.about-me-section-div {
+    margin: 19px;
+    border-radius: 40px;
+}
+.about-me-section-button {
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-me-section-for-text {
+    background-color: #0E0E0F;
+    ;
+}
+.sub-about-me-section-for-text {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.about-me-section-h2 {
+    margin-top: 0px;
+}
+.about-me-section-read-more-button {
+    border-radius: 9px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
