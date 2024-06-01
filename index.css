@@ -168,7 +168,6 @@
     background-color: #0E0E0F;
     box-shadow: 5px solid white;
     border-radius: 5px;
-    justify-content: space-evenly;
 }
 .about-me-section-div {
     margin: 19px;
@@ -186,6 +185,7 @@
     background-color: #0E0E0F;
     box-shadow: 5px solid white;
     border-radius: 5px;
+    max-width: 33.33%;
     
 }
 .sub-about-me-section-for-text {
@@ -207,8 +207,19 @@
 
 .about-me-section-for-myimage {
     margin-left: 10px;
-    
+    height: 60vh;
+    top: 12px;
+    left: 390px;  
+    max-width: 34%;  
+}
+.about-me-section-for-myimage img {
+    max-width: 8~0%;
 }
 .about-me-section-for-tools {
-    margin-left: 10px;
+    display: flex;
+    min-width: 20%;
 }
+.about-me-section-for-tools img {
+    max-width: 100px;
+}
+
