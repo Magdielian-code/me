@@ -279,6 +279,9 @@ body {
 
 .carousel-div {
     height: 700px;
+    background-color: green;
+}
+.carousel-text-h5{
     color: white;
 }
 
