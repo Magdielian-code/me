@@ -275,4 +275,11 @@ body {
     border-radius: 5px;
 }
 
+/* TESTIMONIAL CAROUSEL */
+
+.carousel-div {
+    height: 700px;
+    color: white;
+}
+
 
