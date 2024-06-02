@@ -190,6 +190,7 @@ body {
     color: #fff;
     border: 2px solid #fff;
     padding: 10px 20px;
+    margin-top: 50px;
     cursor: pointer;
     font-size: 1.2em;
 }
@@ -212,6 +213,7 @@ body {
 }
 
 .text-section p {
+    max-width: 33.33%;
     margin-bottom: 20px;
     line-height: 1.6;
 }
@@ -227,6 +229,7 @@ body {
 
 .image-section {
     flex: 1 1 30%;
+    margin-left: 0px;
 }
 
 .image-section img {
