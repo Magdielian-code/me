@@ -220,6 +220,7 @@ body {
 
 .read-more-btn {
     background-color: #007bff;
+    border-radius: 9px;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -240,6 +241,7 @@ body {
 
 .tools-section, .socials-section {
     margin-top: 20px;
+    max-width: 33.33%;
 }
 
 .tools-section h2, .socials-section h2 {
