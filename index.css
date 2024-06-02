@@ -278,9 +278,13 @@ body {
 /* TESTIMONIAL CAROUSEL */
 
 .carousel-div {
-    height: 700px;
-    background-color: green;
+    height: 500px;
+    background-color: white;
+    
 }
 .carousel-text-h5{
+    color: white;
+}
+.carousel-text-section {
     color: white;
 }
