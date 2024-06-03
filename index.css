@@ -276,20 +276,3 @@ body {
 }
 
 /* TESTIMONIAL CAROUSEL */
-
-.carousel-div {
-    height: 500px;
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-}
-.carousel-text-h5{
-    color: white;
-}
-.carousel-text-section {
-    color: white;
-}
-.carousel-inner-section {
-    color: black;
-}
