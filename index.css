@@ -61,6 +61,8 @@
 
 .project-div-section {
     margin-top: 90px; 
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .select-button-div {
     border-radius: 50px;    
@@ -179,9 +181,13 @@ body {
     color: #fff;
 }
 
+
+
 .container {
     max-width: 100%;
-    margin: 70px auto;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding-left: 23px;
 }
 
@@ -208,9 +214,16 @@ body {
     max-width: 100%;
 }
 
-.text-section {
-    flex: 1 1 60%;
-    margin-right: 20px;
+
+.about-bg {
+    background-image: url('image/me.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-me-h {
+    min-height: 55vh;
 }
 
 .text-section h1 {
@@ -219,8 +232,7 @@ body {
 }
 
 .text-section p {
-    max-width: 33.33%;
-    margin-bottom: 20px;
+    font-size: 1.5em;
     line-height: 1.6;
 }
 
@@ -367,17 +379,17 @@ body {
 .cCarousel-item p {
     margin: 20px;
     text-align: left;
-  width: 100%;
-  object-fit: cover;
-  min-height: 246px;
-  color: black;
-  background-color: white;
+    width: 100%;
+    object-fit: cover;
+    min-height: 246px;
+    color: black;
+    background-color: white;
 }
 
 .cCarousel-item .infos {
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   background: white;
@@ -385,11 +397,21 @@ body {
 }
 
 .cCarousel-item .infos button {
-  background: #222;
   padding: 10px 30px;
   border-radius: 15px;
-  color: white;
+  color: black;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+}
+.class-for-top-div {
+    display: flex;
+    color: black;
+}
+
+.info-img {
+    border-radius: 50%;
+    height: 60px;
+    margin: 20px;
+    
 }
