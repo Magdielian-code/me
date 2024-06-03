@@ -277,7 +277,6 @@ body {
 
 
 /* TESTIMONIAL CAROUSEL */
-
 *,
 ::before,
 ::after {
@@ -296,7 +295,7 @@ body {
 
 #cCarousel {
   position: relative;
-  max-width: 900px;
+  max-width: 90vw;
   margin: auto;
 }
 
@@ -311,8 +310,8 @@ body {
   border-radius: 50%;
   z-index: 1;
   font-size: 26px;
-  color: white;
-  background: #00000072;
+  color: black !important;
+  background: white;
   cursor: pointer;
 }
 
@@ -325,7 +324,7 @@ body {
 }
 
 #carousel-vp {
-  width: 770px;
+  width: 80vw;
   height: 400px;
   display: flex;
   align-items: center;
@@ -364,11 +363,12 @@ body {
   flex-direction: column;
 }
 
-.cCarousel-item img {
+.cCarousel-item p {
   width: 100%;
   object-fit: cover;
   min-height: 246px;
-  color: white;
+  color: black;
+  background-color: white;
 }
 
 .cCarousel-item .infos {
