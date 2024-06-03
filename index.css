@@ -355,7 +355,7 @@ body {
 
 .cCarousel-item {
   background-color: white;
-  width: 250px;
+  width: 300px;
   height: 365px;
   border: 2px solid white;
   border-radius: 15px;
@@ -365,6 +365,8 @@ body {
 }
 
 .cCarousel-item p {
+    margin: 20px;
+    text-align: left;
   width: 100%;
   object-fit: cover;
   min-height: 246px;
