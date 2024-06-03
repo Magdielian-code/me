@@ -354,6 +354,7 @@ body {
 }
 
 .cCarousel-item {
+  background-color: white;
   width: 250px;
   height: 365px;
   border: 2px solid white;
