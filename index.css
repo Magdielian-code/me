@@ -418,3 +418,84 @@ body {
     max-width: 50px;
     
 }
+
+/* test code  */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('path/to/your/background/image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-content {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    max-width: 1200px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.content {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+.content button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: #1c86ee;
+}
+
+.skills {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools, .skills .socials {
+    margin-bottom: 20px;
+}
+
+.tool-grid, .social-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tool, .social {
+    background: rgba(255, 255, 255, 0.3);
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.tool:hover, .social:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
