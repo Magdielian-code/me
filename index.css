@@ -3,9 +3,9 @@
     color: white;
 }
 
-/* HEADER AND TOP BODY PART */
+HEADER AND TOP BODY PART */
 
-/* 
+
 .brand {
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +13,7 @@
     /* justify-content: center; 
     align-items: center;
     justify-items: center;
-    color: black;
+    color: black; */
 }
 .head-nav {
     position: fixed;
@@ -26,8 +26,8 @@
 
 #navbarNav {
     justify-content: right;
-} */
-/*
+}
+
 .image-div {
     background-color: black;
     display: flex;
@@ -56,11 +56,11 @@
 .resume-button {
     border-radius: 50px;
     width: 30%;
-} */
+} 
 
 
 /* PROJECT GRID AREA */
-/* 
+
 .project-div-section {
     min-width: 10px;
     margin-top: 90px; 
@@ -81,7 +81,7 @@
 }
 /* PROJECT CARD I */
 
-/* .project-card {
+.project-card {
     background-color: white;
     border-radius: 20px;
 }
@@ -106,7 +106,7 @@
 }
 
 /* PROJECT CARD 2 */
-/*
+
 .project-sub-div2 {
     background-color: #0CCB76;
     border-radius: 20px;
@@ -127,7 +127,7 @@
 }
 
 /* PROJECT CARD 3 */
-/*
+
 .project-sub-div3 {
     background: #25E6AC;
     border-radius: 20px;
@@ -149,14 +149,15 @@
 
 /* PROJECT CARD 4 */
 
-/* .project-sub-div4 {
+.project-sub-div4 {
     background: #800080;
 
     border-radius: 20px;
     height: 140px;
     margin: 10px 
 
-} /*  
+} 
+
 .project-card-body4 {
     margin-top: 20px;
     color: black;
@@ -168,13 +169,13 @@
     background: #800080;
     color: white;
     font-size: 1em;
-} */
+} 
 
 
 /* ABOUT ME SECTION */
 
 /* TESTIMONIAL CAROUSEL */
-/*
+
 *,
 ::before,
 ::after {
@@ -231,8 +232,8 @@ body {
   position: relative;
   overflow: hidden;
   margin: auto;
-} */
-/* 
+} 
+
 @media (max-width: 770px) {
   #carousel-vp {
     width: 510px;
