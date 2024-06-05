@@ -4,11 +4,13 @@
 }
 
 /* HEADER AND TOP BODY PART */
+
+/* 
 .brand {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
-    /* justify-content: center; */
+    /* justify-content: center; 
     align-items: center;
     justify-items: center;
     color: black;
@@ -24,8 +26,8 @@
 
 #navbarNav {
     justify-content: right;
-    /* background-color: black; */
-}
+} */
+/*
 .image-div {
     background-color: black;
     display: flex;
@@ -54,11 +56,11 @@
 .resume-button {
     border-radius: 50px;
     width: 30%;
-}
+} */
 
 
 /* PROJECT GRID AREA */
-
+/* 
 .project-div-section {
     min-width: 10px;
     margin-top: 90px; 
@@ -78,7 +80,8 @@
     margin: 10px ;
 }
 /* PROJECT CARD I */
-.project-card {
+
+/* .project-card {
     background-color: white;
     border-radius: 20px;
 }
@@ -103,6 +106,7 @@
 }
 
 /* PROJECT CARD 2 */
+/*
 .project-sub-div2 {
     background-color: #0CCB76;
     border-radius: 20px;
@@ -123,7 +127,7 @@
 }
 
 /* PROJECT CARD 3 */
-
+/*
 .project-sub-div3 {
     background: #25E6AC;
     border-radius: 20px;
@@ -145,14 +149,14 @@
 
 /* PROJECT CARD 4 */
 
-.project-sub-div4 {
+/* .project-sub-div4 {
     background: #800080;
 
     border-radius: 20px;
     height: 140px;
     margin: 10px 
 
-}
+} /*  
 .project-card-body4 {
     margin-top: 20px;
     color: black;
@@ -164,12 +168,13 @@
     background: #800080;
     color: white;
     font-size: 1em;
-}
+} */
 
 
 /* ABOUT ME SECTION */
 
 /* TESTIMONIAL CAROUSEL */
+/*
 *,
 ::before,
 ::after {
@@ -226,8 +231,8 @@ body {
   position: relative;
   overflow: hidden;
   margin: auto;
-}
-
+} */
+/* 
 @media (max-width: 770px) {
   #carousel-vp {
     width: 510px;
@@ -277,7 +282,7 @@ body {
   justify-content: space-around;
   background: white;
   color: black;
-}
+} */
 
 .cCarousel-item .infos button {
   padding: 10px 30px;
@@ -298,7 +303,7 @@ body {
     margin-left: 20px; 
     max-width: 50px;
     
-}
+} 
 
 /* test code  */
 
@@ -329,14 +334,13 @@ body, html {
     cursor: pointer;
     font-size: 1.2em;
 }
-.container {
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    background: url('path/to/your/background/image.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    box-sizing: border-box;
+.container {    
+    min-width: 200px; 
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 23px;
 }
 
 .profile-content {
