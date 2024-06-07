@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./project.css">
     <title>Project</title>
   </head>
   <body class="full-body">
@@ -128,6 +129,33 @@
       </div>
     </div>
 
-    <!-- FOOTER -->
+    <!-- Contact me section -->
+    <div class="form-body">
+      <div class="contact-me-container">
+        <div class="contact-me-text-div">
+          <h5 class="contact-me-text">Do you have a project in mind?</h5>
+          <h6 class="contact-me-text">feel free to drop a message</h6>
+        </div>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="form-section-button" type="submit">
+            <strong>Submit</strong>
+          </button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
