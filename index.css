@@ -22,6 +22,10 @@
   margin: 100px;
 }
 
+.project-page-nav-bar {
+  top: 0;
+}
+
 #navbarNav {
   justify-content: right;
   /* background-color: black; */
