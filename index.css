@@ -481,6 +481,7 @@ textarea {
 
 button {
   padding: 10px 20px;
+  width: 100%;
   background-color: #1e90ff;
   color: white;
   border: none;
