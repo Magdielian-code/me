@@ -16,3 +16,19 @@
   .project-page-form-section-button {
     background-color: #161A22;
   }
+
+  /* fOOTER SECTION */
+
+  .project-page-footer {
+    text-align: center;
+    height: 10px;
+
+  }
+  .project-page-footer-class {
+    background-color: var(--Black, #1D1D1F);
+    width: 100%;
+    height: 50px;
+  }
+  .project-page-footer-text {
+    margin-top: 15px;
+  }
